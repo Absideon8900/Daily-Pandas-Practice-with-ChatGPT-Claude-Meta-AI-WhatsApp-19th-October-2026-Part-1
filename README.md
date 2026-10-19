@@ -121,17 +121,15 @@ PS C:\Users\hp\Downloads\sql_practice(0)> & C:\Users\hp\AppData\Local\Programs\P
 5      206    OD       Forest       720         80  0.82
 7      208    AS        Urban       460         65  0.68
 
-   site_id state      landuse  rainfall  elevation  ...  vulnerability state_mean_rainfall rainfall_backup  temperature  rainfall_final
-0      201    WB        Urban       420         15  ...            Low          320.000000             410           32             420
-1      202    WB       Forest       180        125  ...            Low          320.000000             190           28             180
-2      203    AS       Forest       650         55  ...            Low          476.666667             640           30             650
-3      204    AS        Urban       320          9  ...            Low          476.666667             310           34             320
-4      205    OD  Agriculture       520         45  ...           High          620.000000             510           33             520
-5      206    OD       Forest       720         80  ...            Low          620.000000             710           27             720
-6      207    WB  Agriculture       360         35  ...            Low          320.000000             355           31             360
-7      208    AS        Urban       460         65  ...            Low          476.666667             455           29             460
-
-[8 rows x 12 columns]
+   site_id state      landuse  rainfall  elevation  ndvi rainfall_class vulnerability  state_mean_rainfall  rainfall_backup  temperature  rainfall_final
+0      201    WB        Urban       420         15  0.28       Moderate           Low           320.000000              410           32             420
+1      202    WB       Forest       180        125  0.78            Low           Low           320.000000              190           28             180
+2      203    AS       Forest       650         55  0.88           High           Low           476.666667              640           30             650
+3      204    AS        Urban       320          9  0.32       Moderate           Low           476.666667              310           34             320
+4      205    OD  Agriculture       520         45  0.42           High          High           620.000000              510           33             520
+5      206    OD       Forest       720         80  0.82           High           Low           620.000000              710           27             720
+6      207    WB  Agriculture       360         35  0.58       Moderate           Low           320.000000              355           31             360
+7      208    AS        Urban       460         65  0.68       Moderate           Low           476.666667              455           29             460
 
   state      landuse  rainfall  ndvi
 0    AS       Forest     650.0  0.88
@@ -146,4 +144,12 @@ landuse state  Agriculture  Forest  Urban
 0          AS          NaN   650.0  390.0
 1          OD        520.0   720.0    NaN
 2          WB        360.0   180.0  420.0
+
+PS C:\Users\hp\Downloads\sql_practice(0)> 
 ```
+<ul>
+    <li>
+        <b>hu</b>
+        <p>jj</p>
+    </li>
+</ul>
