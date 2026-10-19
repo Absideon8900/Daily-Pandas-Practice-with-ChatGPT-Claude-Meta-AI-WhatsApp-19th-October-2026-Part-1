@@ -147,9 +147,3 @@ landuse state  Agriculture  Forest  Urban
 
 PS C:\Users\hp\Downloads\sql_practice(0)> 
 ```
-<ul>
-    <li>
-        <b>hu</b>
-        <p>jj</p>
-    </li>
-</ul>
